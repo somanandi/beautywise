@@ -1,0 +1,329 @@
+* { 
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+.body {
+    background-color: #0000;
+}
+.common-padding {
+    padding: 100px 0;
+}
+.body-bg-color {
+    background-color: #000;
+}
+/* home page css */
+.beautywise-navbar {
+    background-color: #0a0b0b00;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+}
+#beautywise-logo-img {
+    width: 17vw;
+    height: 30vh;
+}
+.beautywise-nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: serif;
+}
+.beautywise-nav .dropdown-menu a {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: serif;
+    background-color: black;
+    color: #fff;
+}
+.beautywise-nav {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+.beautywise-nav li.nav-item {
+    padding: 0 6px;
+    letter-spacing: 4px;
+}
+.profile-icon {
+    width: 30px;
+}
+.search-icon {
+    width: 30px;
+}
+.beautywise-header .navbar-toggler {
+    color: #fbf9f9;
+
+}
+.beautywise-banner {
+    height: 600px;
+    position: relative;
+}
+/* footer part css */
+.icon-bg img {
+    width: 58%;
+}
+.contact-us {
+    display: flex;
+    margin-top: 10px;
+}
+.contact-us img {
+    width: 3%;
+}
+.contact-us p {
+    padding-left: 15px;
+}
+.footer-part h1 {
+    color: #fff;
+    font-family: serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+}
+.footer-part p {
+    color: #fff;
+}
+.footer-part a {
+    text-decoration: none;
+}
+
+/* banner part css */
+.beautywise-banner .carousel-inner {
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* makeup video */
+.makeup-video {
+    background-image: url('../images/bg-makeupvideo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+.makeup-video-text {
+    border: 1px solid #fff;
+    padding: 60px;
+    position: absolute;
+    width: 25%;
+    height: 450px;
+    background-color: #D7B474;
+    float: right;
+    right: 211px;
+    bottom: -72px;
+}
+.makeup-video-text h1 {
+    color: #fff;
+    font-family: serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.testimonial-img {
+    width: 10%;
+}
+.testimonial-person-name {
+    color: #fff;
+    font-size: 12px;
+    padding-left: 25px;
+}
+#carouselExampleIndicators {
+    padding-bottom: 100px;
+    padding-top: 5px;
+}
+.makeup-video-text p {
+    color: #fff;
+    font-size: 12px;
+}
+#quick-appoiment-div {
+    background-color: #fff;
+    height: 552px;
+    border: 1px solid #D7B474;
+    box-shadow: 1px 1px 5px 1px #D7B474;
+}
+.gift-png-div {
+    padding-bottom: 20px;
+}
+.gift-box-png {
+    width: 10%;
+}
+#quick-appoiment-circle {
+    border-radius: 50%;
+    background-color: #D7B474;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 15px;
+    color: #fff;
+}
+.appoiment-padding {
+    padding: 50px;
+    height: 100%;
+}
+.appoiment-padding h3 {
+    font-family: serif;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+}
+.appoiment-padding h2 {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 15px;
+}
+.appoiment-padding p {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 12px;
+}
+
+button.btn.appoiment-button {
+    width: 50%;
+    background-color: #fff;
+}
+.appoiment h2{
+    font-family: serif;
+    text-transform: capitalize;
+    color: #D7B474;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.appoiment .form-label {
+    font-size: 12px;
+}
+button.btn.send-msg {
+    background-color: #D7B474;
+    color: #fff;
+    width: 100%
+}
+.appoiment-div {
+    background-color: #fff;
+    height: 552px;
+    border: 1px solid #D7B474;
+    box-shadow: 1px 1px 5px 1px #D7B474;
+}
+.followers {
+    position: relative;
+    background-image: url(../images/s1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.followers::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #00000096;
+}
+.followers-part {
+    border-radius: 50%;
+    width: 60%;
+    height: 170px;
+    border: 1px solid #d7b47438;
+    background-color: #d7b47426;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 1px 2px 2px 2px #d7b474a6;
+}
+.followers-padding {
+    text-align: center;
+    padding: 164px 0;
+    margin: auto;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+}
+/* about page css */
+.about-page {
+    background-color: #000;
+}
+.makeup-artist h1 {
+    color: #613228;
+    font-family: serif;
+    text-transform: capitalize;
+}
+.makeup-artist {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.makeup-artist p {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.belena-pic1 {
+    position: relative;
+}
+.belena-pic .belena-pic1::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 45px;
+    bottom: 0;
+    border: 1px solid #613228;
+}
+.life-event-paragraph h1 {
+    color: #613228;
+    font-family: serif;
+    text-transform: capitalize;
+}
+.life-event-paragraph p {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+.life-event-paragraph h3 {
+    color: #613228;
+    font-family: serif;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.about-my-story h1 {
+    color: #613228;
+    font-family: serif;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.about-my-story p {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+.about-my-story-paragraph {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+button.navbar-toggler {
+    color: #fff;
+    background-color: #fff;
+}
