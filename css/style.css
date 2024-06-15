@@ -107,6 +107,9 @@ html, body {
     height: 600px;
     position: relative;
 }
+.makeup-video-icon {
+    padding: 180px;
+}
 .makeup-video-text {
     border: 1px solid #fff;
     padding: 60px;
@@ -251,7 +254,7 @@ button.btn.send-msg {
     background-color: #000;
 }
 .makeup-artist h1 {
-    color: #613228;
+    color: #d7b474a6;
     font-family: serif;
     text-transform: capitalize;
 }
@@ -277,10 +280,10 @@ button.btn.send-msg {
     left: 0;
     right: 45px;
     bottom: 0;
-    border: 1px solid #613228;
+    border: 1px solid #d7b474a6;
 }
 .life-event-paragraph h1 {
-    color: #613228;
+    color: #d7b474a6;
     font-family: serif;
     text-transform: capitalize;
 }
@@ -291,13 +294,13 @@ button.btn.send-msg {
     text-transform: capitalize;
 }
 .life-event-paragraph h3 {
-    color: #613228;
+    color: #d7b474a6;
     font-family: serif;
     text-transform: capitalize;
     font-size: 14px;
 }
 .about-my-story h1 {
-    color: #613228;
+    color: #d7b474a6;
     font-family: serif;
     text-transform: capitalize;
     font-size: 16px;
@@ -312,18 +315,206 @@ button.btn.send-msg {
     padding-top: 10px;
 }
 
+/* blog page css */
+.latest-blog h1 {
+    padding-top: 50px;
+    text-align: center;
+    color: #d7b474a6;
+    font-family: serif;
+    text-transform: capitalize;
+    font-size: 38px;
+}
+.latest-blog p {
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.blog-pagination-paragraph-flex {
+    display: flex;
+}
+.blog-paragraph-flex {
+    display: flex;
+    padding-top: 10px;
+}
+.blog-paragraph {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #d7b474a6;
+}
+.blog-paragraph p {
+    color: #fff;
+    padding: 8px;
+}
+.right-arrow {
+    padding-left: 5px;
+}
+.blog-icon {
+    width: 7%;
+    height: 32px;
+    padding-left: 2%;
+}
+.blog-paragraph h2 {
+    font-size: 18px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #d7b474a6;
+}
+.blog-paragraph h4 {
+    font-size: 16px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #fff;
+}
+.b1-img-size {
+    width: 90%;
+}
+td {
+    width: 78%;
+}
+.blog-pagination-table-title {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.blog-pagination-paragraph h3 {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.blog-pagination-paragraph i {
+    color: #fff;
+}
+.blog-pagination-paragraph h4 {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.blog-pagination-paragraph h1 {
+    font-size: 38px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #d7b474a6;
+}
+.blog-pagination-paragraph {
+    margin-bottom: 40px;
+}
+.blog-pagination-img {
+    margin-bottom: 40px;
+}
+.blog-pagination-paragraph p {
+    font-size: 12px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.search-div {
+    background-color: #d7b474a6;
+    padding: 40px;
+}
+.recent-post-div {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #d7b474a6;
+}
+.blog-pagination-table th {
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-bottom: none;
+}
+
+.blog-pagination-table td {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-bottom: none;
+}
 
 
 
 
 
+/* iphone SE Responsive */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
 
+.common-padding {
+    padding: 50px 0;
+}
 
-
-
-
-/* responsive */
+/* home page css */
 button.navbar-toggler {
     color: #fff;
-    background-color: #fff;
+    background-color: #d7b474a6;
+}
+.beautywise-banner {
+    height: 200px;
+}
+.beautywise-nav {
+    border: 1px solid #d7b474a6;
+    background-color: #000;
+}
+.makeup-video-text {
+    width: 45%;
+    height: 300px;
+    padding: 20px;
+    right: 40px;
+}
+.makeup-video-text h1 {
+    font-size: 18px;
+}
+.makeup-video-text p {
+    font-size: 8px;
+}
+.makeup-video-icon {
+    padding: 200px;
+}
+#carouselExampleIndicators {
+    padding-bottom: 60px;
+}
+.followers {
+    height: 575px;
+}
+.followers-padding {
+    padding: 50px 0;
+}
+.followers-part {
+    height: 100px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.followers-part h1 {
+    font-size: 18px;
+}
+.followers-part p {
+    font-size: 12px;
+}
+.contact-us img {
+    width: 5%;
+}
+/* about page */
+.makeup-artist {
+    padding-top: 100px;
+}
+/* blog page */
+.blog-pagination-paragraph h1 {
+    font-size: 18px;
+}
+.blog-pagination-paragraph h3 {
+    font-size: 13px;
+}
+.blog-pagination-paragraph p {
+    font-size: 11px;
+}
+
+
+
+
+
+
 }
