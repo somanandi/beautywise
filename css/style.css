@@ -100,15 +100,25 @@ html, body {
     background-repeat: no-repeat;
 }
 /* makeup video */
-.makeup-video {
+.makeup-video-icon {
     background-image: url('../images/bg-makeupvideo.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
+    padding: 180px;
+}
+.makeup-video {
     position: relative;
 }
-.makeup-video-icon {
-    padding: 180px;
+.makeup-video img {
+        background-color: #fff;
+        border-radius: 50%;
+        border: 2px solid #D7B474;
+    }
+.makeup-video-icon p {
+    font-size: 30px;
+    color: #fff;
+    padding-top: 20px;
 }
 .makeup-video-text {
     border: 1px solid #fff;
@@ -303,7 +313,7 @@ button.btn.send-msg {
     color: #d7b474a6;
     font-family: serif;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 38px;
 }
 .about-my-story p {
     color: #fff;
@@ -314,7 +324,15 @@ button.btn.send-msg {
 .about-my-story-paragraph {
     padding-top: 10px;
 }
-
+.my-achivment-div h1 {
+    color: #d7b474a6;
+    font-size: 30px;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+.my-achivment-div .row {
+    border: 1px solid #fff;
+}
 /* blog page css */
 .latest-blog h1 {
     padding-top: 50px;
@@ -434,6 +452,11 @@ td {
     font-size: 14px;
     text-transform: capitalize;
     border-bottom: none;
+}
+/* gallery page css */
+.portfolio {
+    padding-top: 80px;
+    margin-top: 80px;
 }
 
 
