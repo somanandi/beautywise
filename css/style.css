@@ -101,31 +101,40 @@ html, body {
 }
 /* makeup video */
 .makeup-video-icon {
+    padding: 193px 0px;
+
+}
+.makeup-video {
+    position: relative; 
     background-image: url('../images/bg-makeupvideo.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
-    padding: 180px;
 }
-.makeup-video {
-    position: relative;
+.makeup-video-text img {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 4px solid #D7B474;
+    width: 20%;
 }
-.makeup-video img {
-        background-color: #fff;
-        border-radius: 50%;
-        border: 2px solid #D7B474;
-    }
 .makeup-video-icon p {
     font-size: 30px;
     color: #fff;
     padding-top: 20px;
 }
+.makeup-video-part img {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 4px solid #D7B474;
+    width: 8%;
+    padding: 10px;
+}
 .makeup-video-text {
     border: 1px solid #fff;
-    padding: 60px;
+    padding: 35px;
     position: absolute;
-    width: 25%;
-    height: 450px;
+    width: 20%;
+    height: 360px;
     background-color: #D7B474;
     float: right;
     right: 211px;
@@ -230,6 +239,7 @@ button.btn.send-msg {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    z-index: 1;
 }
 .followers::after {
     content: "";
@@ -458,9 +468,59 @@ td {
     padding-top: 80px;
     margin-top: 80px;
 }
-
-
-
+/* contact page css */
+.contact {
+    margin-top: 200px;
+}
+.office h1 {
+    font-size: 38px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #d7b474a6;
+}
+#office-details-paragraph {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 0;
+}
+.contact-details-part img {
+    width: 6%;
+    height: 22px;
+    margin-right: 10px;
+}
+.contact-details-part p {
+    color: #fff;
+    font-size: 12px;
+}
+.contact-details-img {
+    width: 80%;
+}
+.opening h1 {
+    font-size: 38px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #d7b474a6;
+    padding-bottom: 20px;
+}
+.opening tr td {
+    color: #fff;
+    border-bottom-width: 0px;
+}
+.get-in-touch h1 {
+    padding: 20px 0;
+    font-size: 38px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #d7b474a6;
+}
+.get-in-touch p {
+    color: #fff;
+    font-size: 12px;
+}
+.get-in-touch-form {
+    padding-top: 20px;
+}
 
 
 /* iphone SE Responsive */
@@ -483,10 +543,11 @@ button.navbar-toggler {
     background-color: #000;
 }
 .makeup-video-text {
-    width: 45%;
-    height: 300px;
-    padding: 20px;
-    right: 40px;
+        width: 45%;
+        height: 270px;
+        padding: 20px;
+        right: 40px;
+        margin-bottom: 50px;
 }
 .makeup-video-text h1 {
     font-size: 18px;
