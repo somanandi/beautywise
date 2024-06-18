@@ -521,6 +521,33 @@ td {
 .get-in-touch-form {
     padding-top: 20px;
 }
+/* team page css */
+.team-member {
+    margin-top: 160px;
+}
+.team h1 {
+    font-size: 38px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #d7b474a6;
+    padding: 10px;
+}
+/* timing page css */
+.timing {
+    margin-top: 190px;
+}
+.timing td {
+    color: #fff;
+}
+.timing th {
+    color: #d7b474a6;
+    font-size: 28px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+
+
+
 
 
 /* iphone SE Responsive */
