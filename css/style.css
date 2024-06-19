@@ -545,7 +545,67 @@ td {
     font-family: serif;
     text-transform: capitalize;
 }
-
+/* pricing page css */
+.pricing {
+    margin-top: 130px;
+}
+.pricing h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 38px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #d7b474a6;
+}
+.pricing-flex-div {
+    display: flex;
+}
+.pricing-price {
+    text-align: right;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+}
+.pricing-divider {
+    width: 46%;
+    height: 22px;
+    border-bottom: 1px dotted #fff;
+}
+.pricing-heading {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.pricing-text {
+    font-size: 14px;
+    color: #fff;
+}
+/* faq part css */
+.accordion-part {
+    margin-top: 120px;
+}
+.accordion-heading h1 {
+    font-size: 30px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #fff;
+}
+.accordion-heading p {
+    font-size: 12px;
+    color: #fff; 
+}
+.beautywise-accordion button.accordion-button.collapsed {
+    background-color: black;
+}
+.beautywise-accordion .accordion-header .accordion-button  {
+    font-size: 16px;
+    color:  #fff;
+}
+.beautywise-accordion strong {
+    font-size: 14px;
+    font-weight: 100;
+    color:  #d7b474a6;
+}
 
 
 
