@@ -589,10 +589,12 @@ td {
     font-family: serif;
     text-transform: capitalize;
     color: #fff;
+    padding-bottom: 20px;
 }
 .accordion-heading p {
-    font-size: 12px;
+    font-size: 14px;
     color: #fff; 
+    padding-bottom: 20px;
 }
 .beautywise-accordion button.accordion-button.collapsed {
     background-color: black;
@@ -606,7 +608,43 @@ td {
     font-weight: 100;
     color:  #d7b474a6;
 }
-
+.accordion-body {
+    background-color: black;
+}
+.accordion-button:not(.collapsed):hover {
+    color: #fff;
+    background-color: black;
+}
+.faq-img {
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 25%;
+}
+/* event page css */
+.event {
+    margin-top: 255px;
+}
+.event-paragraph {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: black;
+}
+.event-paragraph h1 {
+    font-size: 30px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #fff;
+}
+.event-paragraph p {
+    font-size: 14px;
+    color: #fff;
+    padding-top: 10px;
+}
 
 
 
