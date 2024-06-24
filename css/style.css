@@ -15,7 +15,7 @@ html, body {
 .body-bg-color {
     background-color: #000;
 }
-/* home page css */
+/* navbar css */
 .beautywise-navbar {
     background-color: #0a0b0b00;
     position: absolute;
@@ -31,6 +31,25 @@ html, body {
     font-weight: 600;
     font-size: 18px;
     font-family: serif;
+    position: relative;
+}
+.beautywise-nav .nav-link::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    background: #D7B474;
+    transition: 0.3s all;
+}
+.beautywise-nav .nav-link:hover::before {
+    width: 100%;
+    visibility: visible;
+}
+.beautywise-nav .nav-link:hover {
+    color: #D7B474;
 }
 .beautywise-nav .dropdown-menu a {
     font-weight: 600;
@@ -38,6 +57,9 @@ html, body {
     font-family: serif;
     background-color: black;
     color: #fff;
+}
+.beautywise-nav .dropdown-menu a:hover {
+    color: #D7B474;
 }
 .beautywise-nav {
     justify-content: center;
@@ -59,11 +81,16 @@ html, body {
     color: #fbf9f9;
 
 }
-.beautywise-banner {
-    height: 600px;
-    position: relative;
-}
+
 /* footer part css */
+.icon-bg {
+    position: relative;
+    transition: 0.6 ease;
+    border-radius: 50%;
+}
+.icon-bg:hover {
+    box-shadow: 2px 2px 4px 2px #D7B474;
+}
 .icon-bg img {
     width: 58%;
 }
@@ -73,6 +100,10 @@ html, body {
 }
 .contact-us img {
     width: 3%;
+    position: relative;
+}
+.contact-us img:hover {
+    box-shadow: 2px 1px 4px 3px #D7B474;
 }
 .contact-us p {
     padding-left: 15px;
@@ -91,14 +122,20 @@ html, body {
 .footer-part a {
     text-decoration: none;
 }
-
+/* home page css */
 /* banner part css */
+.beautywise-banner {
+    height: 600px;
+    position: relative;
+}
 .beautywise-banner .carousel-inner {
+    position: relative;
     height: 600px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 /* makeup video */
 .makeup-video-icon {
     padding: 193px 0px;
@@ -185,6 +222,7 @@ html, body {
     height: 100%;
     padding: 15px;
     color: #fff;
+    border: 1px solid #ffffffd1;
 }
 .appoiment-padding {
     padding: 50px;
@@ -221,10 +259,15 @@ button.btn.appoiment-button {
 .appoiment .form-label {
     font-size: 12px;
 }
-button.btn.send-msg {
+.btn.send-msg {
     background-color: #D7B474;
     color: #fff;
-    width: 100%
+    width: 100%;
+    position: relative;
+    letter-spacing: 2.2px;
+}
+.btn.send-msg::after {
+
 }
 .appoiment-div {
     background-color: #fff;
@@ -290,17 +333,20 @@ button.btn.send-msg {
     font-size: 12px;
     text-transform: capitalize;
 }
+.belena-pic {
+    margin-top: 28px;
+}
 .belena-pic1 {
     position: relative;
 }
 .belena-pic .belena-pic1::before {
     content: '';
     position: absolute;
-    top: 30px;
+    top: 0;
     left: 0;
-    right: 45px;
+    right: 0;
     bottom: 0;
-    border: 1px solid #d7b474a6;
+    box-shadow: 2px 2px 1px 1px #d7b474a6;
 }
 .life-event-paragraph h1 {
     color: #d7b474a6;
@@ -344,6 +390,9 @@ button.btn.send-msg {
     border: 1px solid #fff;
 }
 /* blog page css */
+.blog-part {
+    position: relative;
+}
 .latest-blog h1 {
     padding-top: 50px;
     text-align: center;
@@ -375,7 +424,9 @@ button.btn.send-msg {
     flex-direction: column;
     text-align: center;
     border: 2px solid #d7b474a6;
+    position: absolute;
 }
+
 .blog-paragraph p {
     color: #fff;
     padding: 8px;
