@@ -176,6 +176,7 @@ html, body {
     float: right;
     right: 211px;
     bottom: -72px;
+    box-shadow: 2px 2px 5px 1px #ffffff0a;
 }
 .makeup-video-text h1 {
     color: #fff;
@@ -201,10 +202,10 @@ html, body {
     font-size: 12px;
 }
 #quick-appoiment-div {
-    background-color: #fff;
+    background-color: #D7B474;
     height: 552px;
-    border: 1px solid #D7B474;
-    box-shadow: 1px 1px 5px 1px #D7B474;
+    border: 2px solid #fff;
+    box-shadow: 2px 1px 5px 1px #ffffff0e;
 }
 .gift-png-div {
     padding-bottom: 20px;
@@ -214,14 +215,14 @@ html, body {
 }
 #quick-appoiment-circle {
     border-radius: 50%;
-    background-color: #D7B474;
+    background-color: #fff;
     text-align: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     height: 100%;
     padding: 15px;
-    color: #fff;
+    color: #D7B474;
     border: 1px solid #ffffffd1;
 }
 .appoiment-padding {
@@ -231,23 +232,46 @@ html, body {
 .appoiment-padding h3 {
     font-family: serif;
     text-transform: capitalize;
-    color: #fff;
+    color: black;
     font-size: 16px;
 }
 .appoiment-padding h2 {
     text-transform: capitalize;
-    color: #fff;
+    color: #D7B474;
     font-size: 15px;
 }
 .appoiment-padding p {
     text-transform: capitalize;
-    color: #fff;
+    color: black;
     font-size: 12px;
 }
 
-button.btn.appoiment-button {
+.btn.appoiment-button {
     width: 50%;
-    background-color: #fff;
+    background-color: #D7B474;
+    color: #D7B474;
+    position: relative;
+    border: 2px solid #D7B474;
+    z-index: 1;
+    transition: 0.4s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.btn.appoiment-button::after {
+    content:'';
+    width: 100%;
+    height: 101%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    color: #D7B474;
+}
+.btn.appoiment-button:hover {
+   color: #fff;
+}
+.btn.appoiment-button:hover::after {
+    width: 0;
 }
 .appoiment h2{
     font-family: serif;
@@ -258,16 +282,6 @@ button.btn.appoiment-button {
 }
 .appoiment .form-label {
     font-size: 12px;
-}
-.btn.send-msg {
-    background-color: #D7B474;
-    color: #fff;
-    width: 100%;
-    position: relative;
-    letter-spacing: 2.2px;
-}
-.btn.send-msg::after {
-
 }
 .appoiment-div {
     background-color: #fff;
@@ -583,6 +597,23 @@ td {
     color: #d7b474a6;
     padding: 10px;
 }
+.team-img {
+    position: relative;
+}
+.team-contact h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #d7b474a6;
+}
+.team-contact p a {
+    width: 10%;
+}
+.team-contact-png {
+    width: 5%;
+    margin: 0 5px;
+}
+
+
 /* timing page css */
 .timing {
     margin-top: 190px;
