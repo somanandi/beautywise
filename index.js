@@ -3,7 +3,13 @@ $(window).scroll(function () {
 
     if (scroll >= 250) {
       $(".beautywise-navbar").addClass("fixed-top");
-    } else {
+      $(".beautywise-navbar").css("background" , "black");
+    }
+     else {
       $(".beautywise-navbar").removeClass("fixed-top");
     }
   });
+
+
+
+  
