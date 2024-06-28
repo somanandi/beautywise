@@ -205,7 +205,7 @@ html, body {
 #quick-appoiment-div {
     background-color: #D7B474;
     height: 552px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     box-shadow: 2px 1px 5px 1px #ffffff0e;
 }
 .gift-png-div {
@@ -838,7 +838,15 @@ button.accordion-button:not(.collapsed) {
     padding-top: 190px;
 }
 .customer-profile {
-    padding-top: 68px;
+    padding-top: 60px;
+}
+.customer-profile h1 {
+    font-size: 30px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #D7B474;
+    padding: 10px 0;
+    letter-spacing: 3px;
 }
 .customer-details label {
     display: flex;
