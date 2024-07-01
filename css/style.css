@@ -6,26 +6,32 @@ html, body {
     overflow-x: hidden;
     height: 100%;
 }
-.body {
-    background-color: #0000;
-}
 .common-padding {
     padding: 100px 0;
 }
 .body-bg-color {
     background-color: #000;
 }
+
 /* navbar css */
 .beautywise-navbar {
-    background-color: #0a0b0b00;
+    background-color: #000;
     position: absolute;
     z-index: 5;
     width: 100%;
-    height: 25vh;
+    height: 16vh;
+    padding-top: 10px;
+    transition: 0.1s all;
+}
+.beautywise-navbar nav {
+    height: 15vh;
+}
+.beautywise-logo {
+    margin-left: 20px;
 }
 #beautywise-logo-img {
-    width: 17vw;
-    height: 30vh;
+    width: 14vw;
+    height: 25vh;
 }
 .beautywise-nav .nav-link {
     color: #fff;
@@ -33,6 +39,7 @@ html, body {
     font-size: 18px;
     font-family: serif;
     position: relative;
+    padding-top: 38px;
 }
 .beautywise-nav .nav-link::before {
     position: absolute;
@@ -56,7 +63,7 @@ html, body {
     font-weight: 600;
     font-size: 18px;
     font-family: serif;
-    background-color: black;
+    background-color: #000;
     color: #fff;
 }
 .beautywise-nav .dropdown-menu a:hover {
@@ -128,6 +135,7 @@ html, body {
 .beautywise-banner {
     height: 600px;
     position: relative;
+    padding-top: 118px;
 }
 .beautywise-banner .carousel-inner {
     position: relative;
@@ -283,6 +291,7 @@ html, body {
     color: #D7B474;
     font-size: 18px;
     text-decoration: underline;
+    letter-spacing: 2px;
 }
 .appoiment .form-label {
     font-size: 12px;
@@ -411,6 +420,9 @@ html, body {
     border: 1px solid #fff;
 }
 /* blog page css */
+.latest-blog {
+    padding-top: 5px;
+}
 .latest-blog .col-md-4 {
     transform-style: preserve-3d;
     perspective: 1500px;
@@ -585,7 +597,7 @@ position: relative;
 }
 /* contact page css */
 .contact {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .office h1 {
     font-size: 38px;
@@ -641,7 +653,7 @@ position: relative;
     padding-top: 100px;
 }
 .team-member {
-    margin-top: 160px;
+    margin-top: 140px;
 }
 .team h1 {
     font-size: 38px;
@@ -682,9 +694,6 @@ position: relative;
     text-transform: capitalize;
     color: #D7B474;
 }
-.team-contact p a {
-    width: 10%;
-}
 .team-contact-png {
     width: 5%;
     margin: 0 5px;
@@ -704,10 +713,10 @@ position: relative;
 }
 /* timing page css */
 .timing-section {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .timing {
-    margin-top: 190px;
+    margin-top: 125px;
 }
 .timing .table {
     margin-bottom: 0;
@@ -726,7 +735,7 @@ position: relative;
     padding-top: 100px;
 }
 .pricing {
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .pricing h1 {
     text-align: center;
@@ -764,7 +773,7 @@ position: relative;
     padding-top: 100px;
 }
 .accordion-part {
-    margin-top: 120px;
+    margin-top: 100px;
 }
 button.accordion-button:not(.collapsed) {
     background-color: black;
@@ -773,7 +782,7 @@ button.accordion-button:not(.collapsed) {
     font-size: 30px;
     font-family: serif;
     text-transform: capitalize;
-    color: #fff;
+    color: #D7B474;
     padding-bottom: 20px;
 }
 .accordion-heading p {
@@ -807,7 +816,7 @@ button.accordion-button:not(.collapsed) {
 }
 /* event page css */
 .event-section {
-    padding-top: 100px;
+    padding-top: 10px;
 }
 .event {
     margin-top: 255px;
@@ -826,7 +835,7 @@ button.accordion-button:not(.collapsed) {
     font-size: 30px;
     font-family: serif;
     text-transform: capitalize;
-    color: #fff;
+    color: #d7b474a6;
 }
 .event-paragraph p {
     font-size: 14px;
@@ -835,7 +844,7 @@ button.accordion-button:not(.collapsed) {
 }
 /* profile page css */
 .customer-profile-section {
-    padding-top: 190px;
+    padding-top: 150px;
 }
 .customer-profile {
     padding-top: 60px;
@@ -866,12 +875,16 @@ button.accordion-button:not(.collapsed) {
     padding: 50px 0;
 }
 /* home page css */
-button.navbar-toggler {
-    color: #fff;
-    background-color: #d7b474a6;
+.beautywise-nav {
+    text-align: left;
+    padding-left: 15px;
+}
+#beautywise-logo-img {
+    width: 14vw;
+    height: 16vh;
 }
 .beautywise-banner {
-    height: 200px;
+    height: 329px;
 }
 .beautywise-nav {
     border: 1px solid #d7b474a6;
@@ -890,8 +903,11 @@ button.navbar-toggler {
 .makeup-video-text p {
     font-size: 8px;
 }
+.makeup-video-part img {
+    width: 70%;
+}
 .makeup-video-icon {
-    padding: 200px;
+    padding: 135px;
 }
 #carouselExampleIndicators {
     padding-bottom: 60px;
@@ -914,13 +930,21 @@ button.navbar-toggler {
     font-size: 12px;
 }
 .contact-us img {
-    width: 5%;
+    width: 4%;
+    height: 37px;
+}
+/* fotter */
+.icon-bg img {
+    width: 50%;
 }
 /* about page */
 .makeup-artist {
     padding-top: 140px;
 }
 /* blog page */
+.card.blog-img {
+    margin-top: 70px;
+}
 .latest-blog {
     padding-top: 100px;
 }
@@ -933,12 +957,24 @@ button.navbar-toggler {
 .blog-pagination-paragraph p {
     font-size: 11px;
 }
+/* gallery */
+.portfolio {
+    padding-top: 0;
+}
 /* event */
 .event-section {
     padding-top: 150px;
 }
 .event {
     margin-top: 50px;
+}
+/* team */
+.team-member {
+    margin-top: 80px;
+}
+/* timing */
+.timing {
+    margin-top: 80px;
 }
 
 }
