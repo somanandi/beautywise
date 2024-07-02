@@ -231,8 +231,10 @@ html, body {
     flex-direction: column;
     height: 100%;
     padding: 15px;
+    max-width: 92%;
     color: #D7B474;
-    border: 1px solid #ffffffd1;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 5px 1px #fff3;
 }
 .appoiment-padding {
     padding: 50px;
@@ -374,6 +376,21 @@ html, body {
     right: 0;
     bottom: 0;
     box-shadow: 2px 2px 1px 1px #d7b474a6;
+}
+.belena-pic2 img {
+    height: 500px;
+}
+.belena-pic2{
+    position: relative;
+}
+.belena-pic2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: -6px 7px 1px -4px #d7b474a6;
 }
 .life-event-paragraph h1 {
     color: #d7b474a6;
@@ -883,6 +900,9 @@ button.accordion-button:not(.collapsed) {
     width: 14vw;
     height: 16vh;
 }
+button.navbar-toggler {
+    border: 2px solid #fff;
+}
 .beautywise-banner {
     height: 329px;
 }
@@ -908,6 +928,11 @@ button.accordion-button:not(.collapsed) {
 }
 .makeup-video-icon {
     padding: 135px;
+}
+.appoiment-padding {
+    padding: 20px;
+    max-width: 100%;
+    height: 65%;
 }
 #carouselExampleIndicators {
     padding-bottom: 60px;
