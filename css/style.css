@@ -13,9 +13,9 @@ html, body {
     background-color: #000;
 }
 
-/* navbar css */
+/***************** navbar css *********************/
 .beautywise-navbar {
-    background-color: #000;
+    background-color: #000000b8;
     position: absolute;
     z-index: 5;
     width: 100%;
@@ -85,12 +85,16 @@ html, body {
 .search-icon {
     width: 30px;
 }
-.beautywise-header .navbar-toggler {
-    color: #fbf9f9;
 
+.navbar-toggler-icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-bottom: 6px;
+    background-color: #fff;
 }
 
-/* footer part css */
+/*************** footer part css ***************/
 .icon-bg {
     position: relative;
     transition: 0.6 ease;
@@ -117,12 +121,12 @@ html, body {
     padding-left: 15px;
 }
 .footer-part h1 {
-    color: #fff;
+    color: #D7B474;
+    font-size: 38px;
     font-family: serif;
     text-transform: capitalize;
     text-decoration: underline;
     text-underline-position: under;
-    padding-bottom: 20px;
 }
 .footer-part p {
     color: #fff;
@@ -130,8 +134,9 @@ html, body {
 .footer-part a {
     text-decoration: none;
 }
-/* home page css */
-/* banner part css */
+
+/************ home page css ***********/
+/******************* banner part css **********************/
 .beautywise-banner {
     height: 600px;
     position: relative;
@@ -145,7 +150,7 @@ html, body {
     background-repeat: no-repeat;
 }
 
-/* makeup video */
+/**************** makeup video ******************/
 .makeup-video-icon {
     padding: 193px 0px;
 
@@ -341,7 +346,8 @@ html, body {
     z-index: 5;
     width: 100%;
 }
-/* about page css */
+
+/***************** about page css *******************/
 .about-page {
     background-color: #000;
 }
@@ -436,7 +442,8 @@ html, body {
 .my-achivment-div .row {
     border: 1px solid #fff;
 }
-/* blog page css */
+
+/******************** blog page css ************************/
 .latest-blog {
     padding-top: 5px;
 }
@@ -573,7 +580,8 @@ td {
     text-transform: capitalize;
     border-bottom: none;
 }
-/* gallery page css */
+
+/******************* gallery page css ************************/
 .portfolio-section {
     padding-top: 100px;
 }
@@ -612,7 +620,8 @@ position: relative;
 .portfolio img:hover::after {
     background-image: url(../images/search.png);
 }
-/* contact page css */
+
+/************************ contact page css *********************/
 .contact {
     margin-top: 100px;
 }
@@ -665,7 +674,8 @@ position: relative;
 .get-in-touch-form {
     padding-top: 20px;
 }
-/* team page css */
+
+/***************** team page css ************************/
 .team-section {
     padding-top: 100px;
 }
@@ -728,7 +738,8 @@ position: relative;
 .team-img .team-contact:hover {
     opacity: 1;
 }
-/* timing page css */
+
+/*************** timing page css ******************/
 .timing-section {
     padding-top: 100px;
 }
@@ -747,7 +758,8 @@ position: relative;
     font-family: serif;
     text-transform: capitalize;
 }
-/* pricing page css */
+
+/*********** pricing page css **********/
 .pricing-section {
     padding-top: 100px;
 }
@@ -785,7 +797,8 @@ position: relative;
     font-size: 14px;
     color: #fff;
 }
-/* faq part css */
+
+/********** faq part css **************/
 .faq-section {
     padding-top: 100px;
 }
@@ -831,12 +844,13 @@ button.accordion-button:not(.collapsed) {
     margin-left: 10%;
     margin-top: 25%;
 }
-/* event page css */
+
+/******** event page css ********/
 .event-section {
-    padding-top: 10px;
+    padding-top: 250px;
 }
 .event {
-    margin-top: 255px;
+    margin-top: 100px;
 }
 .event-paragraph {
     display: flex;
@@ -859,7 +873,8 @@ button.accordion-button:not(.collapsed) {
     color: #fff;
     padding-top: 10px;
 }
-/* profile page css */
+
+/********** profile page css **********/
 .customer-profile-section {
     padding-top: 150px;
 }
@@ -885,7 +900,7 @@ button.accordion-button:not(.collapsed) {
 }
 
 
-/* iphone SE Responsive */
+/********** Responsive ***********/
 @media only screen and (min-width: 320px) and (max-width: 767px) {
 
 .common-padding {
@@ -900,9 +915,7 @@ button.accordion-button:not(.collapsed) {
     width: 14vw;
     height: 16vh;
 }
-button.navbar-toggler {
-    border: 2px solid #fff;
-}
+
 .beautywise-banner {
     height: 329px;
 }
@@ -1001,5 +1014,4 @@ button.navbar-toggler {
 .timing {
     margin-top: 80px;
 }
-
 }
